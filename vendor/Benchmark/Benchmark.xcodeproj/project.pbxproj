@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A922AADA155A75B800CF0F9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922AAD9155A75B800CF0F9F /* Foundation.framework */; };
+		A922AAE0155A75B800CF0F9F /* Benchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = A922AADF155A75B800CF0F9F /* Benchmark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A922AAD6155A75B800CF0F9F /* libBenchmark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBenchmark.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922AAD9155A75B800CF0F9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A922AADD155A75B800CF0F9F /* Benchmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Benchmark-Prefix.pch"; sourceTree = "<group>"; };
+		A922AADE155A75B800CF0F9F /* Benchmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Benchmark.h; sourceTree = "<group>"; };
+		A922AADF155A75B800CF0F9F /* Benchmark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Benchmark.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A922AAD3155A75B800CF0F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922AADA155A75B800CF0F9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A922AACB155A75B700CF0F9F = {
+			isa = PBXGroup;
+			children = (
+				A922AADB155A75B800CF0F9F /* Benchmark */,
+				A922AAD8155A75B800CF0F9F /* Frameworks */,
+				A922AAD7155A75B800CF0F9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A922AAD7155A75B800CF0F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A922AAD6155A75B800CF0F9F /* libBenchmark.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A922AAD8155A75B800CF0F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A922AAD9155A75B800CF0F9F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A922AADB155A75B800CF0F9F /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				A922AADE155A75B800CF0F9F /* Benchmark.h */,
+				A922AADF155A75B800CF0F9F /* Benchmark.m */,
+				A922AADC155A75B800CF0F9F /* Supporting Files */,
+			);
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		A922AADC155A75B800CF0F9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A922AADD155A75B800CF0F9F /* Benchmark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A922AAD4155A75B800CF0F9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A922AAD5155A75B800CF0F9F /* Benchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922AAE3155A75B800CF0F9F /* Build configuration list for PBXNativeTarget "Benchmark" */;
+			buildPhases = (
+				A922AAD2155A75B800CF0F9F /* Sources */,
+				A922AAD3155A75B800CF0F9F /* Frameworks */,
+				A922AAD4155A75B800CF0F9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Benchmark;
+			productName = Benchmark;
+			productReference = A922AAD6155A75B800CF0F9F /* libBenchmark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A922AACD155A75B700CF0F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A922AAD0155A75B800CF0F9F /* Build configuration list for PBXProject "Benchmark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A922AACB155A75B700CF0F9F;
+			productRefGroup = A922AAD7155A75B800CF0F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A922AAD5155A75B800CF0F9F /* Benchmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A922AAD2155A75B800CF0F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922AAE0155A75B800CF0F9F /* Benchmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A922AAE1155A75B800CF0F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A922AAE2155A75B800CF0F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A922AAE4155A75B800CF0F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Benchmark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Benchmark/Benchmark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A922AAE5155A75B800CF0F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Benchmark.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Benchmark/Benchmark-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A922AAD0155A75B800CF0F9F /* Build configuration list for PBXProject "Benchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922AAE1155A75B800CF0F9F /* Debug */,
+				A922AAE2155A75B800CF0F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922AAE3155A75B800CF0F9F /* Build configuration list for PBXNativeTarget "Benchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922AAE4155A75B800CF0F9F /* Debug */,
+				A922AAE5155A75B800CF0F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A922AACD155A75B700CF0F9F /* Project object */;
+}
